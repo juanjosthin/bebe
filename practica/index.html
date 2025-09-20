@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PARA MI MICHELLE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🎬 VIDEO DE FONDO -->
+  <video autoplay muted loop id="bgVideo">
+    <source src="fondo/gif.mp4" type="video/mp4">
+    Tu navegador no soporta video de fondo
+  </video>
+
+  <!-- 💖 Pantalla de inicio -->
+  <div id="inicio" class="pantalla-inicio">
+    <div id="contenido-inicio">
+      <h1>💖 PARA LA MAS HERMOSA 💖</h1>
+      <button id="btnEntrar">¡AQUÍ!!</button>
+    </div>
+  </div>
+
+  <!-- 🌸 Contenido principal (oculto al inicio) -->
+  <div id="contenido" class="oculto">
+    <h1 class="titulo">MY GIRL</h1>
+    <h2 class="texto">
+      Hola amor mío usted sabe q la amo mucho mucho mucho jaja, hice esto para usted te adoro preciosa obvio siempre esta web estará aquí solo tiene q tener el link y siempre podrá ver la web. Dicho lo anterior pues no sabes cuanto quiero verte tocar tu cabello darte besitos en esa carita agarrar tu manito y aprovechando agarrarte de la cintura y nada de que nananana jsjsjs. Y Te amo, Te quiero, Amo cada cosa de ti mi bebita hermosa eres y siempre serás lo mejor que tengo en mi vida y siempre te lo dire MY GIRL.
+    </h2>
+
+    <div class="fotos">
+      <img src="img/jpg.jpg" class="foto" alt="foto 1">
+      <img src="img/jpg (3).jpg" class="foto" alt="foto 2">
+    </div>
+
+    <h2 class="titulo">🎶 MUSIQUITA 🎶</h2>
+    <audio id="audio" src="audio/cancion.mp3"></audio>
+    <div class="botones">
+      <button onclick="document.getElementById('audio').play()">▶️ Reproducir</button>
+      <button onclick="document.getElementById('audio').pause()">⏸️ Pausar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
